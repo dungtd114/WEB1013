@@ -1,0 +1,126 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+    position: relative;
+}
+.anh1{
+    width: 100%;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+}
+.text{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    
+}
+nav{
+    background-color:blue;  
+    color: #f9f9f9;
+    margin-top: -4px;
+    text-align: center;    
+}
+nav a{
+    padding: 20px 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-variant: small-caps;
+    
+}
+nav a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+}
+.menu >li{
+    display: inline-block;
+    position: relative;
+}
+.sub-menu{
+    position: absolute;
+    background-color: blue;
+    width: 200px;
+    padding: 0;
+    display: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    top: 80%;
+}
+.sub-menu li:hover{
+    background-color: red;
+    color: white;
+}
+.menu>li:hover .sub-menu{
+    display: block;
+}
+iframe{
+    width: 100%;
+    height: 1000px;
+}
+article{
+    float: left;
+    width: 70%;
+}
+aside{
+    float: right;
+    width: 30%;
+    background-color: rgb(174, 165, 165);
+    display: block;
+    unicode-bidi: isolate;
+}
+aside ul{
+    border: 1px solid white;
+    border-radius: 10px;
+    list-style: none;
+    padding: 0;
+}
+aside ul li{
+    padding: 10px 0;
+    padding-left: 38px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center left;
+    border: 1px solid rgb(29, 25, 25);
+}
+aside ul li a{
+    text-decoration: none;
+    color: black;
+}
+aside ul li:hover{
+    background-color: #f55204;
+}
+aside ul li:hover a{
+    color: #fff;
+}
+.tt-menu{
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    background-color: white;
+}
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 0;
+    clear: both;
+    display: block;
+    position: relative;
+}
+footer>img{
+    position: absolute;
+    left: 20px;
+    bottom: 40px;
+}
+
